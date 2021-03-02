@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+</head>
+
+<body>
+    <table align="center">
+        <tbody>
+            <tr align="center">
+                <td>
+                    <h2>Registration form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <form action="tablelayout.html">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                            <div><label for="uname">User Name</label></div>
+                            <div><input id="uname" type="text" size="25" placeholder="Username.." tabindex="1"
+                                    maxlength="20" /></div><br />
+                            <div><label for="pass">Password</label></div>
+                            <div><input id="pass" type="password" size="25" placeholder="Password.." tabindex="2" />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Other</legend>
+                            <div> <label>Sports</label><br />
+                                <input type="checkbox" id="foot" checked /> <label for="foot">Footboll</label>
+                                <input type="checkbox" id="Hboll" /> <label for="Hboll">Handboll</label>
+                                <input type="checkbox" id="Bboll" /> <label for="Bboll">Basketboll</label>
+                            </div><br />
+                            <div>
+                                <label>Gender</label> <br />
+                                <input name="gender" type="radio" id="male" /><label for="male">Male</label>
+                                <input name="gender" type="radio" id="female" /><label for="female">FeMale</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Address</legend>
+                            <div> <label>Country</label><br />
+                                <select name="address">
+                                    <option selected>Please select your country..</option>
+                                    <option>Egypt</option>
+                                    <option>Palestine</option>
+                                    <option>USA</option>
+                                    <option>Syria</option>
+                                    <option>Jordan</option>
+                                </select>
+                            </div>
+                            <p>
+                                <label>Address</label><br />
+                                <textarea rows="5" cols="20"></textarea>
+                            </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Action</legend>
+                            <div align="right">
+                                <input type="submit" value="Save" />
+                                <input type="reset" value="Cancel" />
+                            </div>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
